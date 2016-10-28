@@ -1,0 +1,32 @@
+# Site settings
+name: ihappytree's page
+email: xqzhao206@163.com
+author:
+url: https://ihapptree.github.io
+resume_site:
+github: https://github.com/ihappytree/
+baseurl:
+description: 记录学习生活
+meta_description: ihappytree;
+motto:
+banner: 积累点滴
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: ihappytree
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
